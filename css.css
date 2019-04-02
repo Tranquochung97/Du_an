@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clear{ clear: both;}
+.wrapper{width: 100%;height: auto; background: gainsboro; margin: 0px auto;}
+.main_menu{margin-top: 23px;background: #0769AD;}
+.main_menu>ul{text-align: center;}
+.main_menu>ul>li{list-style: none; float: left;padding: 15px 20px;position: relative;border-right: 1px solid white;}
+.main_menu>ul>li>a{text-decoration: none;color: ghostwhite;font-size: 20px;}
+.main_menu>ul>li>ul{display: none;position: absolute;background: coral;width: 200px;height: 61px;margin-top: 10px;padding: 11px 25px;}
+.main_menu>ul>li:hover ul{display: block;}
+.main_menu>ul>li:hover{background: goldenrod;transition: all 0.25s}/*positione:relative và position-absolute hiển thị menu con*/
+.main_menu>ul>li>ul>li{list-style: none;border-bottom: 1px solid white;}/*list-style bỏ dấu chấm*/
+.main_menu>ul>li>ul>li:hover{background: lightskyblue;transition: all 0.3s}/* transition hover vào chuyển nhẹ nhàng*/
+.main_menu>ul>li>ul>li>a{text-decoration: none;color: ghostwhite;font-size: 20px;}/* text-decoration bỏ gạch chân chữ thẻ a*/
+.search{float: right;}
